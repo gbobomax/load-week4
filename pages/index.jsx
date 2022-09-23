@@ -11,7 +11,7 @@ const Home = () => {
   const fetchNFTs = async() => {
     let nfts;
     console.log("fetching nfts");
-    const api_key = "l-TwBY_QZnGT5eGADCJnaZyBDgi9GBGq"
+    const api_key = "K6b1IqCDv_TmO_aRxl5B1kcylLYd8ckO"
     const baseURL = `https://eth-mainnet.alchemyapi.io/v2/${api_key}/getNFTs/`;
     var requestOptions = {
       method: 'GET'
